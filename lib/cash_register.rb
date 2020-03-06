@@ -17,7 +17,7 @@ class CashRegister
       self.total += self.transaction[1]
     end
   end
-  #add_item requires a name, price, and quantity when called 
+  #add_item requires a name, price, and quantity when called
   #the transaction is pushed to the purchases array
   #doesn't forget about the previous total
 
@@ -30,8 +30,8 @@ class CashRegister
     end
     return result
   end
-  #discount is applied to the total if discount is there 
-  #if there is no discount to the total, returns a message 
+  #discount is applied to the total if discount is there
+  #if there is no discount to the total, returns a message
   #returns the result of the purchase at the end
 
   def items
